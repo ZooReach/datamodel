@@ -8,6 +8,5 @@ before_install:
   - cd ci_cd
   - docker build -t hellopython .
   - docker run hellopython
-  - cd ../
 script:
   - python hello.py
