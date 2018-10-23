@@ -9,4 +9,4 @@ before_install:
   - docker build -t hellopython .
   - docker run hellopython
 script:
-  - echo "Successful"
+  - python hello.py
