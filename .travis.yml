@@ -7,7 +7,6 @@ services:
 before_install:
   - cd ci_cd
   - docker build -t hellopython .
-  - docker ps -a
   - docker run hellopython
 script:
   - echo "Successful"
