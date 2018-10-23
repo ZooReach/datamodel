@@ -5,4 +5,4 @@ WORKDIR /app
 
 # Copy the current directory contents into the container at /app
 COPY . /app
-CMD ["python", "hello.py"]
+#CMD ["python", "hello.py"]
